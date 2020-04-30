@@ -10,16 +10,14 @@
   <v-card width="500" class="mx-auto mt-5">
     <v-card-title>
      <!-- <v-list-item-subtitle>by Bewave</v-list-item-subtitle>    -->
-    <v-img
-      src="https://raw.githubusercontent.com/barnacker/vuetest/7faaba62368d84706c3a95895b20a7771e9d55d9/vueapp/src/assets/blue-labs-plain.svg"
-    >
-    </v-img>  
-    <h1 class="display-1"> Rental Price Prediction</h1>
-     <!-- <v-img
-        src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/3E5D/production/_109556951_airbnb.png"
+     <v-list-item-avatar color="teal lighten-2"> <h5></h5> </v-list-item-avatar> 
+        <h1 class="display-1">Rental Price Prediction</h1>
+     <!-- <v-list-item-subtitle>by Bewave</v-list-item-subtitle> -->   
+      <v-img
+        src="../assets/montreal-skyline.1476282.jpg"
         height="194" >
-     </v-img> -->
-    </v-card-title>  
+     </v-img> 
+    </v-card-title>   
       <v-card-text>
         <v-form
           ref="form"
