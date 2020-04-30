@@ -1,5 +1,4 @@
 <template>
-
   <v-container>
     <v-layout
       text-xs-center
@@ -234,7 +233,7 @@ export default {
     methods: {
     submit () {
       this.$refs.form.validate()
-      axios.post('http://0.0.0.0:8060/predict', {
+      axios.post('http://ai-rentals-api.bewave.io:8060/predict', {
         neighborhood_: this.Neighborhood,
         propertytype_: this.PropertyType,
         roomtype_: this.RoomType,
