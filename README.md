@@ -1,24 +1,19 @@
-# my-app
+# Build Setup
 
-## Project setup
-```
+# install python libraries
+pip install -r requirements.txt
+
+# run the server
+python api.py
+
+# install dependencies
 npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# serve with hot reload at localhost:8080
+npm run dev
 
-### Compiles and minifies for production
-```
+# build for production with minification
 npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# build for production and view the bundle analyzer report
+npm run build --report
